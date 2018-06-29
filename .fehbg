@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --bg-fill '/home/mortiz/Pictures/pexels-photo-11744.jpeg' 
