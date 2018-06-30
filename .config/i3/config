@@ -145,13 +145,10 @@ gaps outer 10
 #smart_gaps on
 
 # lock screen
-bindsym $mod+Control+l exec i3lock -i ~/Pictures/lock.png
+bindsym $mod+Control+l exec i3lock -i ~/Pictures/pexels-photo-11744.jpeg
 
 # sudpend
 bindsym $mod+Control+s exec i3lock -c 303030 && systemctl suspend
-
-# Connectria VPN
-#bindsym $mod+Control+v exec nmcli con up c551116e-a60b-41cb-a834-ce4e3452762a
 
 # screenshot tool
 bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`'
