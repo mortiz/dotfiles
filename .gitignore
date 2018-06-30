@@ -1,0 +1,35 @@
+# Exclude everything by default
+/*
+
+# Include setup/repo configs
+!Makefile
+!.gitignore
+
+# Include shell configs
+!.zshrc
+!.bashrc
+!.bash_profile
+!.bash_logout
+!.profile
+
+# Include application/environment configs I care about
+!/.ssh/
+/.ssh/*
+!.ssh/config
+!/.vnc/
+/.vnc/*
+!.vnc/config
+!.vnc/xstartup
+!.xinitrc
+!.gnupg/*.config
+!.vimrc
+
+# Include desktop configs
+!.fehbg
+!.gtkrc-2.0
+!/.config/
+.config/*
+!.config/i3/
+!.config/termite/
+!.config/gtk-2.0/
+!.config/gtk-3.0/
