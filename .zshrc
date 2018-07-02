@@ -109,3 +109,6 @@ function dots() {
             ;;
     esac
 }
+
+# let `dots` use git completion
+compdef dots='git'
