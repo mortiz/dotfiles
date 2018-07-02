@@ -34,3 +34,6 @@
 !.config/dunst/
 !.config/gtk-2.0/
 !.config/gtk-3.0/
+!/Pictures/
+Pictures/*
+!Pictures/pexels-photo-11744.jpeg
