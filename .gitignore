@@ -25,6 +25,7 @@
 !.vimrc
 
 # Include desktop configs
+!.Xresources
 !.fehbg
 !.gtkrc-2.0
 !/.config/
