@@ -7,9 +7,6 @@
 
 # Include shell configs
 !.zshrc
-!.bashrc
-!.bash_profile
-!.bash_logout
 !.profile
 
 # Include application/environment configs I care about
